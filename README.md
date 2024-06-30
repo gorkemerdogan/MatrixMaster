@@ -1,4 +1,4 @@
-MatrixMaster.sol library helps matrix operations in Solidity. It uses MM_MatrixHelper.sol for helper functions like string to quad conversion etc. Library supports the functions below:
+MatrixMaster.sol library helps matrix operations in Solidity. It uses ABDKMathQuad library to support floating-point math operations and MM_MatrixHelper.sol for helper functions like string to quad conversion etc. Library supports the functions below:
 
 **Basic Operations**
 1. createMatrix
